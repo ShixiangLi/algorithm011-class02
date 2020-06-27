@@ -1,5 +1,8 @@
 class Solution:
     def removeDuplicates(self, nums):
+        # 双指针
+        # 时间复杂度：O(N)
+        # 空间复杂度：O(1)
         if not nums or len(nums) == 0:
             return 0
         i = 0
